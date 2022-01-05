@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header-part{
+    display: flex;
+}
+.half-width{
+    width: 50%; 
+    padding: 0% 8%;
+}
+.space{
+    padding-top: 10%;
+}
+.half-width img{
+    width: 100%;
+}
+.headline-font{
+    font-family: 'Yeseva One', cursive;;
+    font-size: 50px;
+    border-left: 5px solid red;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+.orange-color{
+    color: #FFAD5A;
+}
+p{
+    font-size: 18;
+    color: #3E3E3E;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.link-btn{
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.section-heading{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    padding: 3% 0%;
+}
+.cards{
+    display: flex;
+    margin: 0% 5%;
+}
+.mission-card{
+    width: 25%;
+    margin: 1% 2%;
+    padding: 2%;
+    border-radius: 20px;
+}
+.mission-card img{
+    width: 30%;
+}
