@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
 }
-.header-part{
+.header-part, .meet-manager{
     display: flex;
 }
 .half-width{
@@ -11,6 +11,9 @@ body{
 }
 .space{
     padding-top: 10%;
+}
+.space5{
+    padding-top: 5%;
 }
 .half-width img{
     width: 100%;
@@ -25,6 +28,9 @@ body{
 .orange-color{
     color: #FFAD5A;
 }
+.red-color{
+    color: #FF5959;
+}
 p{
     font-size: 18;
     color: #3E3E3E;
@@ -38,6 +44,7 @@ p{
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 .section-heading{
     font-size: 48px;
@@ -48,6 +55,7 @@ p{
 .cards{
     display: flex;
     margin: 0% 5%;
+    margin-bottom: 5%;
 }
 .mission-card{
     width: 25%;
@@ -57,4 +65,38 @@ p{
 }
 .mission-card img{
     width: 30%;
+}
+.thirty-width{
+    width: 40%;
+    padding: 0% 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.thirty-width img{
+    width: 100%;
+}
+.seventy-width{
+    width: 60%;
+    padding: 0% 5%;
+}
+.seventy-width img{
+    width: 100%;
+}
+.develop-limits{
+    display: flex;
+    background-image: url(images/shapes/);
+}
+.know-global{
+    display: flex;
+}
+.para{
+    color: 3E3E3E;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: black;
+    color: white!important;
+    padding: 2% 0%;
+    margin-top: 5%;
 }
